@@ -1,0 +1,185 @@
+@font-face {
+    font-family: biennale;
+    src: url(/public/Fonts/Fontspring-DEMO-biennale-black.otf);
+}
+
+@font-face {
+    font-family: biennale-reg;
+    src: url(/public/Fonts/Fontspring-DEMO-biennale-light.otf);
+}
+
+
+body h1 {
+    margin: 0;
+}
+
+.display-area {
+    height: 85vh;
+    background-image: url(./public/images/bg-image.jpeg);
+    background-size: 110%;
+    /* height: 100%; */
+    background-position-y: -18rem;
+    background-repeat: no-repeat;
+}
+
+.display {
+    position: absolute;
+    height: 85vh;
+    width: 100%;
+    background: rgb(18, 55, 42);
+    background: -moz-linear-gradient(32deg, rgba(18, 55, 42, 0.6980042016806722) 0%, rgba(18, 55, 42, 0.375875350140056) 75%);
+    background: -webkit-linear-gradient(32deg, rgba(18, 55, 42, 0.6980042016806722) 0%, rgba(18, 55, 42, 0.375875350140056) 75%);
+    background: linear-gradient(32deg, rgba(18, 55, 42, 0.6980042016806722) 0%, rgba(18, 55, 42, 0.375875350140056)75%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#12372a", endColorstr="#12372a", GradientType=1);
+
+}
+
+.nav-area {
+    background: #12372A;
+    opacity: 0.7;
+    border-radius: 25px;
+}
+
+.nav-area a {
+    font-family: 'Open Sans';
+    font-weight: 300;
+}
+
+.display-text {
+    height: 80%;
+    flex-direction: column;
+
+}
+
+.display-text h1 {
+    font-size: 5rem;
+    font-weight: 900;
+    font-family: biennale;
+    line-height: 4.5rem
+}
+
+.display-text h2 {
+    font-size: 4.5rem;
+    font-family: biennale-reg;
+    font-weight: 300;
+}
+
+.display-text p {
+    width: 70%;
+    font-family: Montserrat;
+    letter-spacing: 1.2px;
+    color: #dfdfdf;
+}
+
+.category-area {
+    background: #F5F5F5;
+    overflow-x: scroll;
+}
+
+.category img {
+    height: 4rem;
+}
+
+.rooms-area {
+    background-image: url(./public/images/1609.m00.i125.n001.S.c12.198623492\ Topographic\ contour\ lines\ vector\ map\ seamless\ pattern.jpg);
+    height: 500px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* opacity: 0.1; */
+}
+
+.rooms p {
+    color: #52463A;
+}
+
+.rooms h1 {
+    color: #B99470;
+}
+
+
+.carousel-inner {
+    border-radius: 12px;
+}
+
+.room-card {
+    border: none;
+}
+
+.Amenities-area {
+    background: #F3F3F3;
+}
+
+.Amenities h1 {
+    color: #B99470;
+}
+
+.amenities-icons-area{
+    width: 80%;
+}
+
+.amenities-icons{
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px 0px 2px 2px;
+    width: 80%;
+}
+
+
+.contact-form {
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    /* padding: 2rem 0rem 2rem 0;
+    border-radius: 7px; */
+}
+
+.contact-form input {
+    border: none;
+    height: 3rem;
+    background: #fff;
+}
+
+.contact-area {
+    background: url(public/images/contact-bg.jpg);
+    background-size: 100%;
+}
+
+.contact-form h1{
+    color: #898887;
+    font-family: 'Open Sans';
+    font-size: 28px;
+}
+
+.cart-text{
+    width: 100%;
+    background: #fff;
+    
+}
+
+footer{
+    background: #12372A;
+}
+
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
+
+*{
+    transition: 1s;
+}
+
+.card-txt{
+    display: none;
+}
+.carousel{
+    cursor: pointer;
+}
+.carousel:hover .card-txt{
+    display: block;
+    transition: 10s;
+}
